@@ -10,7 +10,7 @@ import SignUp from './components/pages/SignUp';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/react_website1">
         <Navbar />
         <Routes>
         <Route path='/'  element={<Home/>} />
