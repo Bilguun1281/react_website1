@@ -69,6 +69,7 @@
     background-color: #1f98f4;
     box-sizing: border-box;
   }
+
   
   .cards__item__img {
     position: absolute;
@@ -88,6 +89,7 @@
   .cards__item__img:hover {
     transform: scale(1.1);
   }
+  
   
   .cards__item__info {
     padding: 20px 30px 30px;

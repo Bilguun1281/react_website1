@@ -10,10 +10,10 @@ import SignUp from './components/pages/SignUp';
 function App() {
   return (
     <>
-      <Router basename="/react_website1">
+      <Router>
         <Navbar />
         <Routes>
-        <Route path='/'  element={<Home/>} />
+        <Route path='/react_website1'  element={<Home/>} />
         <Route path='/services' element={<Services/>} />
         <Route path='/products' element={<Products/>} />
         <Route path='/sign-up' element={<SignUp/>} />
